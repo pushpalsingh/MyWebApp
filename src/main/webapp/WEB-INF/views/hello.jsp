@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Hello from JSP!</h1>
-    <p>Servlet Request Parameter: ${param.name}</p>
+    <p>Servlet Request Parameter: ${requestScope.name}</p>
 </body>
 </html>
